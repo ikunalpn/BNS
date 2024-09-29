@@ -38,3 +38,20 @@ nav img{
     height: 200px;
     width: 250px;
 }
+
+.search-section {
+    margin: 20px;
+}
+.search-section button{
+    padding: 10px;
+    background-color:aquamarine;
+}
+.search-section button:hover{
+   background-color:cornflowerblue;
+   box-shadow: 2px 2px 2px;
+}
+
+.search-section a{
+    text-decoration: none;
+    color: black;
+}
