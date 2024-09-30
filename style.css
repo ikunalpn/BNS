@@ -5,7 +5,9 @@
     background-color:76453B;
 }
 
-
+.navbar-expand-lg {
+    padding: 0;
+}
 nav img{
     height: 50px;
     width: 50px;
@@ -22,10 +24,11 @@ nav img{
 
 
 .bns-title{
-    background-color: aquamarine;
+    background-color: #76453B;
     height: 50px;
     margin: 20px;
     padding: 10px;
+    color: white;
 }
 
 .bns-info{
@@ -42,18 +45,20 @@ nav img{
 .search-section {
     margin: 20px;
 }
+
 .search-section button{
     padding: 10px;
-    background-color:aquamarine;
+    background-color:#76453B;
 }
 .search-section button:hover{
-   background-color:cornflowerblue;
+   background-color:#a36458;
    box-shadow: 2px 2px 2px;
+   
 }
 
 .search-section a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 @media (max-width: 400px) and (max-height: 498px) {
